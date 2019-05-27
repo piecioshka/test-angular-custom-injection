@@ -4,7 +4,8 @@
     "description": "",
     "scripts": {
         "build": "webpack",
-        "watch": "webpack -w"
+        "watch": "webpack -w",
+        "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d public/"
     },
     "dependencies": {
         "@angular/common": "^7.2.15",
@@ -17,6 +18,8 @@
         "zone.js": "^0.9.1"
     },
     "devDependencies": {
+        "cross-env": "^5.2.0",
+        "gh-pages": "^2.0.1",
         "ts-loader": "^6.0.1",
         "typescript": "^3.4.5",
         "webpack": "^4.32.2",

@@ -1,5 +1,5 @@
 // Shim the environment
-import 'core-js/client/shim';
+import 'core-js/features/reflect';
 
 // Angular requires Zones to be pre-configured in the environment
 import 'zone.js/dist/zone';

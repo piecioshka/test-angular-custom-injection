@@ -6,7 +6,7 @@ import { Author } from './author';
     selector: 'my-app',
     template: `
         <div>
-            <h1>Hi <span>{{name}}</span></h1>
+            <h1>Hi <span>{{ author }}</span></h1>
         </div>
     `,
     styles: [`
@@ -15,12 +15,8 @@ import { Author } from './author';
 })
 export class App {
 
-    name: string = null;
-
     constructor(
-        @Inject(Author) private author: string
-    ) {
-        this.name = this.author;
-    }
+        @Inject(Author) public author: string
+    ) { }
 
 }

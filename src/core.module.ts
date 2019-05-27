@@ -5,11 +5,17 @@ import { App } from './app.component';
 import { Author } from './author';
 
 @NgModule({
-    imports: [BrowserModule],
+    imports: [
+        BrowserModule
+    ],
     providers: [
         { provide: Author, useValue: 'piecioshka' }
     ],
-    declarations: [App],
-    bootstrap: [App],
+    declarations: [
+        App
+    ],
+    bootstrap: [
+        App
+    ],
 })
 export class CoreModule { }

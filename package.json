@@ -3,6 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "scripts": {
+        "clear": "rm -rf public/dist/",
+        "clear:all": "rm -rf node_modules && npm run clear",
         "build": "webpack",
         "watch": "webpack -w",
         "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d public/"

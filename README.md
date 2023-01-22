@@ -2,7 +2,7 @@
 
 :ledger: Testing Custom Injection in Angular app
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-angular-custom-injection>
 

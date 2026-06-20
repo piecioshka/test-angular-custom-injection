@@ -1,6 +1,7 @@
 {
   "name": "test-angular-custom-injection",
   "version": "0.0.0",
+  "license": "MIT",
   "description": "",
   "scripts": {
     "clear": "rm -rf public/dist/",
